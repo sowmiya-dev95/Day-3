@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Cascade</title>
+  <link rel="stylesheet" href="./case.css"/>
+</head>
+<body>
+    <div id="outer-box" class="box">
+        <div class="box">
+            <b> <p>Yellow Text</p></b>
+            <div class="box inner-box">
+                <b><p class="white-text">White Text</p></b>
+            </div>
+        </div>
+        
+        <div class="box">
+            <b><p> Yellow Text</p></b>
+            <div class="box inner-box">
+                <b> <p class="white-text"> White Text</p></b>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
